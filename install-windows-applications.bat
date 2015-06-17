@@ -1,22 +1,18 @@
 @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 
-choco install GoogleChrome 
-choco install sublimetext2
-choco install spotify
-choco install skype
-choco install NugetPackageExplorer
-choco install dropbox
-choco install googledrive
-choco install beyondcompare
-choco install Unlocker
-choco install uTorrent
-choco install vlc
-choco install poweriso
-choco install notepadplusplus
-choco install Console2
-choco install ruby
-choco install ruby.devkit
-choco install winrar
-choco install gitextensions
-choco install tomighty
-choco install lastpass
+choco install -y GoogleChrome 
+choco install -y sublimetext2
+choco install -y spotify
+choco install -y skype
+choco install -y dropbox
+choco install -y googledrive
+choco install -y beyondcompare
+choco install -y Unlocker
+choco install -y vlc
+choco install -y poweriso
+choco install -y notepadplusplus
+choco install -y Console2
+choco install -y winrar
+choco install -y gitextensions
+choco install -y tomighty
+choco install -y lastpass
