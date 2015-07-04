@@ -16,3 +16,4 @@ choco install -y winrar
 choco install -y gitextensions
 choco install -y tomighty
 choco install -y lastpass
+choco install -y ncrunch-vs2015
