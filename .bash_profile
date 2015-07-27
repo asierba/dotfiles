@@ -6,6 +6,7 @@ alias gd='git diff'
 alias go='git checkout '
 alias gk='gitk --all&'
 alias gx='gitx --all'
+alias gl='git log --oneline'
 
 alias gitext='gitextensions &'
 alias sln='start */*.sln'
