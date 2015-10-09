@@ -7,6 +7,7 @@ alias go='git checkout '
 alias gk='gitk --all&'
 alias gx='gitx --all'
 alias gl='git log --oneline'
+alias gitclean='git branch --merged master | grep -v \* | xargs -n 1 git branch -d'
 
 alias gitext='gitextensions &'
 alias sln='start */*.sln'
