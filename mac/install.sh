@@ -12,20 +12,20 @@ brew upgrade
 
 # shell
 brew install \
-  autojump \
+  z \
   wget \
   zsh
 
 # development
 brew install \
   git \
-  node
+  node \
+  ruby
 
 # Java Development
 brew cask install java
 brew install \
   gradle \
   maven
-brew cask install intellij-idea
 
 brew cleanup
