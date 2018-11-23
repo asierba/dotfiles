@@ -20,12 +20,16 @@ brew install \
 brew install \
   git \
   node \
-  ruby
+  ruby \
+  docker \ 
+  heroku/brew/heroku
 
 # Java Development
 brew cask install java
+brew tap pivotal/tap
 brew install \
   gradle \
-  maven
+  maven \ 
+  springboot
 
 brew cleanup
