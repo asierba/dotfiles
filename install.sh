@@ -22,7 +22,10 @@ brew install \
   node \
   ruby \
   docker \ 
-  heroku/brew/heroku
+  docker-compose \
+  heroku/brew/heroku \
+  Kubectl \ 
+  dbeaver-community
 
 # Java Development
 brew cask install java
