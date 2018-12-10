@@ -3,3 +3,5 @@
 	email = asierba@gmail.com
 [core]
 	excludesfile = ~/.gitignore
+[pull]
+	rebase = true
