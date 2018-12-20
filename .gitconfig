@@ -1,7 +1,9 @@
 [user]
-	name = Asier Barrenetxea
+	name = Asier
 	email = asierba@gmail.com
 [core]
 	excludesfile = ~/.gitignore
 [pull]
 	rebase = true
+[push]
+	default = current
