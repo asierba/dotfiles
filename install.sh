@@ -26,6 +26,7 @@ brew install \
   heroku/brew/heroku \
   Kubectl \ 
   dbeaver-community
+brew cask install sublime-text
 
 # Java Development
 brew cask install java
