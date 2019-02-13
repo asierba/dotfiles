@@ -36,4 +36,9 @@ brew install \
   maven \ 
   springboot
 
+# Mac stuff
+brew cask install spectacle 
+brew cask install beardedspice
+brew cask install caffeine
+
 brew cleanup
