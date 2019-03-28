@@ -1,6 +1,5 @@
 [user]
 	name = Asier Barrenetxea
-	email = asierba@gmail.com
 [core]
 	excludesfile = ~/.gitignore
 [pull]
