@@ -36,6 +36,9 @@ brew install \
   maven \ 
   springboot
 
+# Haskell
+brew install ghc
+
 # Mac stuff
 brew cask install spectacle 
 brew cask install beardedspice
