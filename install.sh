@@ -14,7 +14,8 @@ brew upgrade
 brew install \
   z \
   wget \
-  zsh
+  zsh \
+  watch
 
 # development
 brew install \
