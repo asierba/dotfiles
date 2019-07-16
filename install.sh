@@ -15,7 +15,8 @@ brew install \
   z \
   wget \
   zsh \
-  watch
+  watch \
+  tldr
 
 # development
 brew install \
