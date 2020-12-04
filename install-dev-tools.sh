@@ -4,7 +4,7 @@
 ## Based on: https://github.com/SamirTalwar/fygm
 
 # Install brew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # Make sure we’re using the latest Homebrew.
 brew update
@@ -13,39 +13,50 @@ brew update
 brew upgrade
 
 # shell
+brew install --cask iterm2
 brew install \
   z \
   wget \
   zsh \
   watch \
   tldr
+# ohmyzsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # development
 brew install \
   git \
   node \
   ruby \
-  docker \ 
+  docker \
   docker-compose \
   heroku/brew/heroku \
-  kubectl \ 
+  kubectl \
   dbeaver-community
-brew cask install sublime-text
+brew install --cask \
+    sublime-text \
+    visual-studio-code
 
 # Java Development
-brew cask install java
+brew install --cask adoptopenjdk
 brew tap pivotal/tap
 brew install \
   gradle \
-  maven \ 
+  maven \
   springboot
 
 # Haskell
 brew install ghc
 
 # Mac stuff
-brew cask install spectacle 
-brew cask install beardedspice
-brew cask install caffeine
+brew install --cask \
+  spectacle \
+  beardedspice \
+  caffeine
+
+# Other stuff 
+brew install --cask slack
+brew install --cask spotify
 
 brew cleanup
+

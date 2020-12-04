@@ -1,4 +1,7 @@
-# ------------------------------------
+. /usr/local/etc/profile.d/z.sh
+
+
+# -----------------------------------
 # Docker alias and functions
 # From: https://raw.githubusercontent.com/tcnksm/docker-alias/master/zshrc
 #
