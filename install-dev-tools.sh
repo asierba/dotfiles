@@ -54,9 +54,10 @@ brew install --cask \
   beardedspice \
   caffeine
 
-# Other stuff 
+# Miscellaneous
 brew install --cask slack
 brew install --cask spotify
+brew install --cask vlc
 
 brew cleanup
 
