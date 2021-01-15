@@ -30,20 +30,20 @@ brew install \
   ruby \
   docker \
   docker-compose \
-  heroku/brew/heroku \
-  kubectl \
-  dbeaver-community
+  heroku/brew/heroku
 brew install --cask \
     sublime-text \
     visual-studio-code
+
+# sdk man
+curl -s "https://get.sdkman.io" | bash
 
 # Java Development
 brew install --cask adoptopenjdk
 brew tap pivotal/tap
 brew install \
   gradle \
-  maven \
-  springboot
+  maven
 
 # Haskell
 brew install ghc
