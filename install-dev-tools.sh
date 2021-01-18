@@ -59,6 +59,7 @@ brew install --cask slack
 brew install --cask spotify
 brew install --cask vlc
 brew install --cask skype
+brew install --cask flux
 
 brew cleanup
 
