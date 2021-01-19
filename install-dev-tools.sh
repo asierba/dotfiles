@@ -60,6 +60,8 @@ brew install --cask spotify
 brew install --cask vlc
 brew install --cask skype
 brew install --cask flux
+brew install --cask google-backup-and-sync
+brew install --cask dropbox
 
 brew cleanup
 
