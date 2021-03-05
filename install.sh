@@ -8,9 +8,13 @@ cd scripts
 ls * | xargs -I {}  ln -fs $(pwd)/{} /usr/local/bin/{} 
 cd -
 
-if ! grep -q "source $(pwd)/.zshrc" ~/.zshrc; then # check if aliases have been imported already
+# import aliases (if they haven't been already)
+if ! grep -q "source $(pwd)/.zshrc" ~/.zshrc; then
     echo "importing custom .zshrc in main .zshrc file.."
     echo "backing up.. ~/.zshrc.bak"
     cp ~/.zshrc ~/.zshrc.bak
     echo "source $(pwd)/.zshrc" >> ~/.zshrc
 fi
+
+cp -nv .vimrc ~/.vimrc
+ 
