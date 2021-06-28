@@ -22,7 +22,7 @@ brew install \
   tldr \
   bat \
   fzf \
-  htop \ 
+  htop \
   diff-so-fancy \
   jq
 
@@ -68,6 +68,8 @@ brew install --cask skype
 brew install --cask flux
 brew install --cask google-backup-and-sync
 brew install --cask dropbox
+brew install --cask google-chrome
+brew install --cask 1password
 
 brew cleanup
 
