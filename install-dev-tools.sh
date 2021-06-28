@@ -70,6 +70,7 @@ brew install --cask google-backup-and-sync
 brew install --cask dropbox
 brew install --cask google-chrome
 brew install --cask 1password
+brew install --cask zoom
 
 brew cleanup
 
