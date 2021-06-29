@@ -52,6 +52,7 @@ brew tap pivotal/tap
 brew install \
   gradle \
   maven
+brew install --cask intellij-idea-ce
 
 # Haskell
 brew install ghc
