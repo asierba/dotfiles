@@ -36,7 +36,9 @@ brew install \
   ruby \
   docker \
   docker-compose \
-  heroku/brew/heroku
+  heroku/brew/heroku \
+  awscli \
+  terraform
 brew install --cask \
     sublime-text \
     visual-studio-code
