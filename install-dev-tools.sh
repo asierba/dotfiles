@@ -74,6 +74,7 @@ brew install --cask dropbox
 brew install --cask google-chrome
 brew install --cask 1password
 brew install --cask zoom
+brew install --cask calibre
 
 brew cleanup
 
