@@ -47,7 +47,6 @@ brew install --cask \
 curl -s "https://get.sdkman.io" | bash
 
 # Java Development
-brew install --cask adoptopenjdk
 brew tap pivotal/tap
 brew install \
   gradle \
