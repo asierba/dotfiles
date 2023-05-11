@@ -36,12 +36,15 @@ brew install \
   ruby \
   docker \
   docker-compose \
-  heroku/brew/heroku \
   awscli \
   terraform
+
 brew install --cask \
     sublime-text \
     visual-studio-code
+brew install --cask intellij-idea-ce
+brew install --cask webstorm
+
 
 # sdk man
 curl -s "https://get.sdkman.io" | bash
@@ -51,10 +54,6 @@ brew tap pivotal/tap
 brew install \
   gradle \
   maven
-brew install --cask intellij-idea-ce
-
-# Haskell
-brew install ghc
 
 # Mac stuff
 brew install --cask \
@@ -69,8 +68,8 @@ brew install --cask vlc
 brew install --cask skype
 brew install --cask flux
 brew install --cask google-backup-and-sync
-brew install --cask dropbox
 brew install --cask google-chrome
+brew install --cask brave-browser
 brew install --cask 1password
 brew install --cask zoom
 brew install --cask calibre
