@@ -37,7 +37,16 @@ brew install \
   docker \
   docker-compose \
   awscli \
-  terraform
+  terraform \
+  gh
+
+# zsh theme powerlevel10k
+brew install romkatv/powerlevel10k/powerlevel10k
+echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
+
+# js
+brew install corepack \
+  nvm
 
 brew install --cask \
     sublime-text \
@@ -73,6 +82,8 @@ brew install --cask brave-browser
 brew install --cask 1password
 brew install --cask zoom
 brew install --cask calibre
+brew install --cask readdle-spark # todo clarify
+brew install --cask tomatobar
 
 brew cleanup
 
