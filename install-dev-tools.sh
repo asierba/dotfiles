@@ -84,6 +84,7 @@ brew install --cask zoom
 brew install --cask calibre
 brew install --cask readdle-spark # todo clarify
 brew install --cask tomatobar
+brew install --cask signal
 
 brew cleanup
 
