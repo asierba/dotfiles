@@ -18,3 +18,16 @@ fi
 
 cp -nv .vimrc ~/.vimrc
  
+
+## Mac configs ##
+
+# Configure finder to open current users folder by default
+defaults write com.apple.finder NewWindowTarget -string "PfHm"
+
+# Dock
+defaults write com.apple.dock orientation left
+defaults write com.apple.dock static-only -bool TRUE
+defaults write com.apple.dock "tilesize" -int "24"
+defaults write com.apple.dock largesize -int 128
+defaults write com.apple.dock mineffect suck
+killall Dock
