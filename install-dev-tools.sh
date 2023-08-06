@@ -87,6 +87,7 @@ brew install --cask tomatobar
 brew install --cask signal
 brew install syncthing
 brew install --cask tor-browser
+brew install --cask the-unarchiver
 
 brew cleanup
 
