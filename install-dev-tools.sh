@@ -66,7 +66,7 @@ brew install \
 
 # Mac stuff
 brew install --cask \
-  spectacle \
+  rectangle \
   beardedspice \
   caffeine
 
