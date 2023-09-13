@@ -17,7 +17,7 @@ if ! grep -q "source $(pwd)/.zshrc" ~/.zshrc; then
 fi
 
 cp -nv .vimrc ~/.vimrc
- 
+
 
 ## Mac configs ##
 
@@ -31,3 +31,21 @@ defaults write com.apple.dock "tilesize" -int "24"
 defaults write com.apple.dock largesize -int 128
 defaults write com.apple.dock mineffect suck
 killall Dock
+
+
+# Install brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+# Install Brew packages
+brew bundle
+
+# Install sdk man
+curl -s "https://get.sdkman.io" | bash
+
+# install ohmyzsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+
+# zsh theme powerlevel10k
+brew install romkatv/powerlevel10k/powerlevel10k
+echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
