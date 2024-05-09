@@ -43,7 +43,7 @@ cask "slack"
 cask "spotify"
 cask "vlc"
 cask "flux"
-# cask "google-backup-and-sync" TODO: fix
+cask "google-drive"
 cask "google-chrome"
 cask "brave-browser"
 cask "1password"

@@ -150,6 +150,12 @@
         "options": {
           "full_name": "raycast"
         }
+      },
+      "google-drive": {
+        "version": "90.0.3",
+        "options": {
+          "full_name": "google-drive"
+        }
       }
     },
     "brew": {
