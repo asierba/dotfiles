@@ -36,12 +36,12 @@ cask "webstorm"
 cask "rectangle"
 cask "beardedspice"
 cask "caffeine"
+cask "raycast"
 
 # Miscellaneous
 cask "slack"
 cask "spotify"
 cask "vlc"
-cask "skype"
 cask "flux"
 # cask "google-backup-and-sync" TODO: fix
 cask "google-chrome"

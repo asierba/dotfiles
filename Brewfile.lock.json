@@ -144,6 +144,12 @@
         "options": {
           "full_name": "obsidian"
         }
+      },
+      "raycast": {
+        "version": "1.73.2",
+        "options": {
+          "full_name": "raycast"
+        }
       }
     },
     "brew": {
