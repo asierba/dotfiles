@@ -33,14 +33,14 @@ curl -s "https://get.sdkman.io" | bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # zsh theme powerlevel10k
-brew install romkatv/powerlevel10k/powerlevel10k
-echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
+brew install powerlevel10k
+echo "source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
 
 ## Mac configs ##
 # Configure finder to open current users folder by default
 defaults write com.apple.finder NewWindowTarget -string "PfHm"
 
-# Dock
+# Configure Dock
 defaults write com.apple.dock orientation left
 defaults write com.apple.dock static-only -bool TRUE
 defaults write com.apple.dock "tilesize" -int "24"
