@@ -5,7 +5,7 @@ echo "Installing scripts and config files..."
 echo ""
 echo "(Re)creating a symbolic link for each script to point to them from the ~ folder..."
 cd scripts
-ls * | xargs -I {}  ln -fs $(pwd)/{} /usr/local/bin/{} 
+ls * | xargs -I {} sudo ln -fs $(pwd)/{} /usr/local/bin/{}
 cd -
 
 # import aliases (if they haven't been already)
