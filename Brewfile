@@ -15,7 +15,6 @@ brew "jq"
 
 # development
 brew "git"
-brew "node"
 brew "ruby"
 brew "docker"
 brew "docker-compose"
@@ -24,7 +23,6 @@ brew "terraform"
 brew "gh"
 
 # js
-brew "corepack"
 brew "nvm"
 
 cask "sublime-text"
