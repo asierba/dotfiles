@@ -12,11 +12,11 @@ if ! grep -q "source $(pwd)/.zshrc" ~/.zshrc; then
     echo "source $(pwd)/.zshrc" >> ~/.zshrc
 fi
 
-# Configure Vim & git
-# cp -nv .vimrc ~/.vimrc
-ln -sf $PWD/.gitconfig ~/.gitconfig
-ln -sf $PWD/.gitignore ~/.gitignore
-ln -sf $PWD/.vimrc ~/.vimrc
+# Set-up config files
+ln -sfv $PWD/.gitconfig ~/.gitconfig
+ln -sfv $PWD/.gitignore ~/.gitignore
+ln -sfv $PWD/.vimrc ~/.vimrc
+ln -sfv $PWD/.p10k.zsh ~/.p10k.zsh
 
 ## Install apps ##
 # Install brew
