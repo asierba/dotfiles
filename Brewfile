@@ -1,6 +1,5 @@
 # shell
 cask "iterm2"
-
 brew "z"
 brew "wget"
 brew "zsh"
@@ -12,7 +11,6 @@ brew "htop"
 brew "diff-so-fancy"
 brew "jq"
 
-
 # development
 brew "git"
 brew "ruby"
@@ -21,10 +19,7 @@ brew "docker-compose"
 brew "awscli"
 brew "terraform"
 brew "gh"
-
-# js
 brew "nvm"
-
 cask "sublime-text"
 cask "visual-studio-code"
 cask "intellij-idea-ce"
