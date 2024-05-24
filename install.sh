@@ -9,7 +9,7 @@ cd ..
 # Install scripts, aliases and configs
 ## Install scripts/
 cd scripts
-ls * | xargs -I {} sudo ln -fs $(pwd)/{} /usr/local/bin/{}
+ls * | xargs -I {} sudo ln -svf $(pwd)/{} /usr/local/bin/{}
 cd ..
 
 ## Install config files
