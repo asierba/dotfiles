@@ -1,1 +1,11 @@
-git branch --merged | grep -v "^\*" | grep -v master | grep -v main | xargs -n 1 git branch -d
+#!/bin/bash
+
+# Delete local branches that have been fully merged into the current branch
+git branch --merged | grep -v "^\*" | grep -v master | grep -v main | grep -v develop | xargs -n 1 git branch -d
+
+# Check and delete branches that have been squash-merged
+for branch in $(git branch | grep -v "^\*" | grep -v master | grep -v main | grep -v develop); do
+    if git reflog show --date=iso | grep -q "$branch"; then
+        git branch -D "$branch"
+    fi
+done
