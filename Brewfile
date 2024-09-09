@@ -30,6 +30,7 @@ cask "rectangle"
 cask "beardedspice"
 cask "caffeine"
 cask "raycast"
+cask "deskpad"
 
 # Miscellaneous
 cask "slack"
