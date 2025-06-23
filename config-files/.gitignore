@@ -7,3 +7,6 @@
 
 # idea
 .idea
+
+# claude
+.claude/settings.local.json
